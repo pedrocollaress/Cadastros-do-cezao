@@ -16,7 +16,7 @@ public class RegistroDePessoas {
         if (pessoas.isEmpty()) {
             System.out.println("Nenhuma pessoa registrada.");
         } else {
-            for (Pessoa pessoa : pessoas) {
+            for (AddPessoa pessoa : pessoas) {
                 System.out.println(pessoa);
             }
         }
