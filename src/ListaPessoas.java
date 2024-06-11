@@ -1,5 +1,11 @@
 public class ListaPessoas {
-    public static void listaPessoas(){
-        System.out.println("Pessoas"+ pessoas);
+    public void listarTodas() {
+        if (pessoas.isEmpty()) {
+            System.out.println("Nenhuma pessoa registrada.");
+        } else {
+            for (Pessoa pessoa : pessoas) {
+                System.out.println(pessoa);
+            }
+        }
     } 
 }
